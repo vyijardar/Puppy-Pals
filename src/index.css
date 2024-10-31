@@ -30,6 +30,22 @@ body {
   min-height: 100vh;
 }
 
+h2 {
+  font-size: 3.2em;
+  color: rgb(192, 35, 35);
+  line-height: 1.1;
+  cursor: pointer;
+}
+
+/* div {
+  background-color: #67d1e9cf;
+  border: 2px solid #2b2b31;
+  border-radius: 3%;
+  display: inline-block;
+  padding: 5%;
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -52,6 +68,19 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+#root li{
+  list-style-type: none;
+  text-align: left;
+}
+#root p{
+  cursor: pointer;
+}
+#root p:hover{
+  background-color: #6b5757;
+
+  color: white;
 }
 
 @media (prefers-color-scheme: light) {
